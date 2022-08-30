@@ -1,0 +1,30 @@
+
+.navbar {
+
+    background-color: rgb(151, 7, 139);
+
+}
+
+.form-control {
+    width: 50rem;
+}
+
+.container-envios {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.categorias .tittle {
+    display: flex;
+    margin-left: 750px;
+    width: 300px;
+    left: 750px;
+    color: rgb(151, 7, 139)
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
