@@ -4,17 +4,20 @@ body {
     padding: 0%;
     /*background-image: url("./imagenes/background.jpg");*/
 }
-#contenedorBody{
+
+#contenedorBody {
     display: flex;
     flex-direction: column;
 }
+
 .navbar {
 
-    background-color:  rgb(151, 7, 139);
+    background-color: rgb(151, 7, 139);
 
 }
-.card{
-border: none;
+
+.card {
+    border: none;
 }
 
 .form-control {
@@ -42,16 +45,26 @@ border: none;
     height: 220px;
 }
 
-.contenedor-ofertas{
-display: flex;
-border: 1px solid;
-color: black;
-width: 100%;
-}
-
-.titulo-ofertas{
+.contenedorGeneral {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+height: 550px;
+width: 100%;
+border: 1px solid black;
+}
 
+
+.contenedorTitulo {
+    display: flex;
+    margin-left: 750px;
+    width: 300px;
+    left: 750px;
+    color: rgb(151, 7, 139);
+}
+
+.contenedorOfertas {
+    
+    height: 500px;
+    width: 500px;
+    margin-left: 1185px;
 }
