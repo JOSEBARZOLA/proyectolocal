@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300&display=swap');
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     margin: 0%;
     padding: 0%;
     /*background-image: url("./imagenes/background.jpg");*/
@@ -48,9 +50,9 @@ body {
 .contenedorGeneral {
     display: flex;
     flex-direction: column;
-height: 550px;
-width: 100%;
-border: 1px solid black;
+    height: 550px;
+    width: 100%;
+    
 }
 
 
@@ -63,8 +65,78 @@ border: 1px solid black;
 }
 
 .contenedorOfertas {
-    
+    position: relative;
     height: 500px;
     width: 500px;
     margin-left: 1185px;
+    bottom: 500px;
+
+}
+
+.contenedorDesplegable {
+   
+    height: 500px;
+    width: 1180px;
+}
+
+.contenedorDesplegable img {
+    width: 1180px;
+    height: 500px;
+
+}
+
+.form{
+background-color: rgb(219, 248, 248);
+width: 90%;
+max-width: 400px;
+border-radius: 1em;
+padding: 3.5em 1.5em;
+margin: auto;
+border: 1px solid rgb(98, 0, 255);
+
+
+}
+.formContainer{
+width: 100%;
+display: grid;
+gap: 1em;
+grid-auto-columns: 100%;
+
+}
+.formTitle{
+    
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+.formImput {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(98, 0, 255);
+}
+.formImput textarea {
+    height: 200px;
+
+}
+.formCta{
+font-family: inherit;
+height: 50px;
+background-color: #089fe0;
+color: #fff;
+border: none;
+font-weight: 300;
+font-size: 1rem;
+padding: .7em 0;
+border-radius: .2em;
+cursor: pointer;
+transition: background-color;
+
+}
+
+.formCta:hover{
+
+background-color: blue;
 }
